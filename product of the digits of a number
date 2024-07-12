@@ -1,0 +1,13 @@
+n=int(input())
+temp=n
+product=1
+while(temp!=0):
+  product=product*(temp % 10)
+  temp=int(temp/10)
+print("product of digits:",product)
+
+
+
+OUTPUT:----
+324
+product of digits:24
