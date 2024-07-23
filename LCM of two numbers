@@ -1,0 +1,14 @@
+import math as m
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+HCF = m.gcd(num1,num2)
+LCM = int((num1*num2)/(HCF))
+print('LCM of given numbers: ', LCM)
+
+
+
+
+output=
+Enter first number: 20
+Enter second number: 10
+LCM of given numbers:  20
