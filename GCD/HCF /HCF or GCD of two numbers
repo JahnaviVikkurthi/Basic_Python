@@ -1,0 +1,12 @@
+import math as m
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+HCF = m.gcd(num1,num2)
+print("gcd of two numbers:",HCF)
+
+
+
+output=
+Enter first number: 20
+Enter second number: 10
+gcd of two numbers: 10
